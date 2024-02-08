@@ -1,0 +1,112 @@
+#include<stdio.h>
+int main(){
+    printf("Hello world ");
+    return 0;
+}
+
+
+
+#include<stdio.h>
+int main(){
+    printf("Welcome to India ");
+    return 0;
+}
+
+
+
+#include<stdio.h>
+int main(){
+    printf("Five animal name:n ");
+    printf("dog\n ");
+    printf("cat\n ");
+    printf("cow\n ");
+    printf("goat\n ");
+    printf("elephant\n ");
+    return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+    printf("Five frnd's name:\n ");
+    printf("shalu\n ");
+    printf("shivani\n ");
+    printf("nazuk\n ");
+    printf("samridhi\n ");
+    printf("sakshi\n ");
+    return 0;
+}
+
+
+
+#include<stdio.h>
+int main(){
+    printf("Five city name:\n ");
+    printf("jaipur\n ");
+    printf("udaipur\n ");
+    printf("bhilwara\n ");
+    printf("ajmer\n ");
+    printf("delhi ");
+    return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+    printf("Five country name:\n ");
+    printf("india\n ");
+    printf("france\n ");
+    printf("egypt\n ");
+    printf("greece\n ");
+    printf("iceland");
+    return 0;
+}
+
+#include<stdio.h>
+int main(){
+    printf("Five favourite dishes name:\n ");
+    printf("dosa\n ");
+    printf("kachori\n ");
+    printf("chaat\n ");
+    printf("chowmin\n ");
+    printf("burger");
+    return 0;
+}
+
+
+
+#include<stdio.h>
+int main(){
+    printf("Five favourite colours name:\n ");
+    printf("red\n ");
+    printf("black\n ");
+    printf("blue\n ");
+    printf("orange\n ");
+    printf("white");
+    return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+    printf("Five degree name:\n ");
+    printf("b.tech\n ");
+    printf("bca\n ");
+    printf("mca\n ");
+    printf("b.com\n ");
+    printf("MSC");
+    return 0;
+}
+
+
+
+#include<stdio.h>
+int main(){
+    printf("five programming name:\n ");
+    printf("c\n ");
+    printf("c++\n ");
+    printf("python\n ");
+    printf("java\n ");
+    printf("PHP");
+    return 0;
+}
