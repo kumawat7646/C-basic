@@ -1,0 +1,167 @@
+=>23,65,-23,1.56,0.8,-2.752,t,123456,o
+#include<stdio.h>
+int main()
+{
+    int a=23;
+    int b=65;
+    int c=-23;
+    float d=1.56;
+    float e=0.8;
+    float f=-2.752;
+    char g='t';
+    int h=123456;
+    char i='o';    
+    printf("%d\n%d\n%d\n%f\n%f\n%f\n%c\n%d\n%c\n",a,b,c,d,e,f,g,h,i);
+    
+    return 0;
+}
+
+=>4-2=2
+#include<stdio.h>
+int main()
+{
+	int a=4;
+	int b=2;
+	int c=a-b;
+	printf("%d",c);
+
+	return 0 ;
+}
+
+=>12*56
+#include<stdio.h>
+int main()
+{
+	int a=12;
+	int b=56;
+	int c=a*b;
+	printf("%d",c);
+
+	return 0 ;
+}
+
+=>12/2
+#include<stdio.h>
+int main()
+{
+	int a=12;
+	int b=2;
+	int c=a/b;
+	printf("%d",c);
+
+	return 0 ;
+}
+
+=>34+56+12+45
+#include<stdio.h>
+int main()
+{
+	int a=34;
+	int b=56;
+	int c=12;
+	int d=45;
+	int e=a+b+c+d;
+	printf("%d",e);
+
+	return 0 ;
+}
+
+=>23*2-9+34
+#include<stdio.h>
+int main()
+{
+	int a=23;
+	int b=2;
+	int c=9;
+	int d=34;
+	int e=a*b-c+d;
+	printf("%d",e);
+
+	return 0 ;
+}
+
+=>12+(34*2)-45
+#include<stdio.h>
+int main()
+{
+	int a=12;
+	int b=34;
+	int c=2;
+	int d=45;
+	int e=a+(b*c)-d;
+	printf("%d",e);
+
+	return 0 ;
+}
+
+=>1.2*(34+1)/2+45
+#include<stdio.h>
+int main()
+{
+	float a=1.2;
+	float b=34;
+	float c=1;
+	float d=2;
+	float e=45;
+	float f=a*(b+c)/d+e;
+	printf("%f",f);
+
+	return 0 ;
+}
+
+=>4.5*2+8.9*1.2-89/2+34
+#include<stdio.h>
+int main()
+{
+	float a=4.5;
+	float b=2;
+	float c=8.9;
+	float d=1.2;
+	float e=89;
+	float f=2;
+	float g=34;
+	float h=a*b+c*d-e/f+g;
+	printf("%f",h);
+
+	return 0 ;
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+=>what is C?
+	C programming is considered as the base for other programming languages, that is why it is known as mother language.
+
+=>features of C?
+	(1) Extensible
+		C language is extensible because it can easily adopt new features
+	(2) Pointer
+		C provides the feature of pointers. We can directly interact with the memory by using the pointers. We can use pointers for memory, structures, functions, array, etc.
+	(3) Speed
+		The compilation and execution time of C language is fast since there are lesser inbuilt functions and hence the lesser overhead
+	(4) Rich Library
+		C provides a lot of inbuilt functions that make the development fast.
+	(5) Simple
+		C is a simple language in the sense that it provides a structured approach (to break the problem into parts), the rich set of library functions, data types, etc
+
+=>first c program
+	#include <stdio.h>    
+	int main()
+	{    
+		printf("Hello C Language");    
+		return 0;   
+	}  
+	#include <stdio.h> includes the standard input output library functions. The printf() function is defined in stdio.h .
+
+	int main() The main() function is the entry point of every program in c language.
+
+	printf() The printf() function is used to print data on the console.
+
+	return 0 The return 0 statement, returns execution status to the OS. The 0 value is used for successful execution and 1 for unsuccessful execution.
+
+=>data types
+	1.Primitive data types:
+	(i)Integer[int(1,2,3...)]   (ii)Character[char(a,b,c...)]   (iii)Float[float(1.2,2.3,...)]
+
+	2.Non-Primitive data types:
+	(i)Array (ii)function
+
+=>Variables
+	A variable is a name of the memory location. It is used to store data. Its value can be changed, and it can be reused many times
