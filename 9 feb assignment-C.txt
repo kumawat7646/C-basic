@@ -146,7 +146,7 @@ int main()
 	int main()
 	{    
 		printf("Hello C Language");    
-		return 0;   
+		return 0;  
 	}  
 	#include <stdio.h> includes the standard input output library functions. The printf() function is defined in stdio.h .
 
