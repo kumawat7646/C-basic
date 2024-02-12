@@ -1,0 +1,318 @@
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("enter the value of a:");
+	scanf ("%d",&a);
+
+	if(a>10)
+	{
+		printf("it is greater than 10");
+	}
+
+	return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("enter the value of a:");
+	scanf ("%d",&a);
+
+	if(a>50)
+	{
+		printf("it is greater than 50");
+	}
+
+	return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("enter the value of a:");
+	scanf ("%d",&a);
+
+	if(a<1000)
+	{
+		printf("it is less than 1000");
+	}
+
+	return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("enter the value of a:");
+	scanf ("%d",&a);
+
+	if(a%2==0)
+	{
+		printf("it is even no.");
+	}
+
+	else
+	{
+		printf("it is odd no.");
+	}
+
+	return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("enter the value of a:");
+	scanf ("%d",&a);
+
+	if(a%5==0)
+	{
+		printf("it is divisible by 5");
+	}
+
+	else
+	{
+		printf("it is not divisibe.");
+	}
+
+	return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("enter the value of a:");
+	scanf ("%d",&a);
+
+	if(a%7==0)
+	{
+		printf("it is divisibe by 7");
+	}
+
+	else
+	{
+		printf("it is not divisibe");
+	}
+
+	return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+	char a;
+	printf("enter the value of a:");
+	scanf ("%c",&a);
+
+	if(a='a')
+	{
+		printf("cat");
+	}
+
+	else
+	{
+		printf("not match");
+	}
+
+	return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+	char a;
+	printf("enter the value of a:");
+	scanf ("%c",&a);
+
+	if(a=='a')
+	{
+		int a,b,c;
+		printf("enter the value of a and b");
+		scanf("%d %d",&a,&b);
+		c=a+b;
+		printf(" sum of a and b %d",c);
+		}
+
+	else
+	{
+		printf("not match");
+	}
+
+	return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+	char a;
+	printf("enter the value of a:");
+	scanf ("%c",&a);
+
+	if(a=='s')
+	{
+		int a,b,c;
+		printf("enter the value of a and b");
+		scanf("%d %d",&a,&b);
+		c=a-b;
+		printf("enter the value of a and b %d",c);
+		}
+
+	else
+	{
+		printf("not match");
+	}
+
+	return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+	char a;
+	printf("enter the value of a:");
+	scanf ("%c",&a);
+
+	if(a=='m')
+	{
+		int a,b,c;
+		printf("enter the value of a and b");
+		scanf("%d %d",&a,&b);
+		c=a*b;
+		printf("enter the value of a and b %d",c);
+		}
+
+	else
+	{
+		printf("not match");
+	}
+
+	return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+	char a;
+	printf("enter the value of a:");
+	scanf ("%c",&a);
+
+	if(a=='d')
+	{
+		int a,b,c;
+		printf("enter the value of a and b");
+		scanf("%d %d",&a,&b);
+		c=a/b;
+		printf("enter the value of a and b %d",c);
+		}
+
+	else
+	{
+		printf("not match");
+	}
+
+	return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+	char a;
+	printf("enter the value of a:");
+	scanf ("%c",&a);
+
+	if(a=='o')
+	{
+		int a,b,c;
+		printf("enter the value of a and b");
+		scanf("%d %d",&a,&b);
+		c=a%b;
+		printf("enter the value of a and b %d",c);
+		}
+
+	else
+	{
+		printf("not match");
+	}
+
+	return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+	char a;
+	printf("enter the value of a:");
+	scanf ("%c",&a);
+
+	if(a=='p')
+	{
+		int a,b;
+		printf("enter the value of a and b");
+		scanf("%d %d",&a,&b);
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		printf("swaping value of a  %d\n",a);
+		printf("swaping value of b  %d",b);
+		}
+
+	else
+	{
+		printf("not match");
+	}
+
+	return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+	char a;
+	printf("enter the value of a:");
+	scanf ("%c",&a);
+
+	if(a=='w')
+	{
+		int a,b,c;
+		printf("enter the value of a,b and c");
+		scanf("%d %d %d",&a,&b,&c);
+		c=a;
+		a=b;
+		b=c;
+		printf("swaping value of a  %d\n",a);
+		printf("swaping value of b  %d",b);
+		}
+
+	else
+	{
+		printf("not match");
+	}
+
+	return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	printf("enter the value of a and b");
+	scanf("%d %d",&a,&b);
+	if(a>b)
+	{
+		printf("a is greater than b");
+		}
+
+	else
+	{
+		printf("b is greater than a");
+	}
+
+	return 0;
+}
+
