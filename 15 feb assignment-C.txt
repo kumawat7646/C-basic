@@ -1,0 +1,106 @@
+1:
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    
+    printf("enter the value:");
+    scanf("%d",&num);
+    
+    printf("table %d\n",num);
+    printf("table %d\n",num*1);
+    printf("table %d\n",num*2);
+
+    return 0;
+}
+
+
+2:
+#include <stdio.h>
+
+int main()
+{
+    int x,y,z;
+    
+    printf("give a user input of x and y:");
+    scanf("%d%d",&x,&y);
+    
+    z=x+y;
+    printf("%d",z);
+
+    return 0;
+}
+#include <stdio.h>
+
+int main()
+{
+    int x,y,z;
+    
+    printf("give a user input of x and y:");
+    scanf("%d%d",&x,&y);
+    
+    z=x-y;
+    printf("%d",z);
+
+    return 0;
+}
+#include <stdio.h>
+
+int main()
+{
+    int x,y,z;
+    
+    printf("give a user input of x and y:");
+    scanf("%d%d",&x,&y);
+    
+    z=x*y;
+    printf("%d",z);
+
+    return 0;
+}
+#include <stdio.h>
+
+int main()
+{
+    int x,y,z;
+    
+    printf("give a user input of x and y:");
+    scanf("%d%d",&x,&y);
+    
+    z=x/y;
+    printf("%d",z);
+
+    return 0;
+}
+#include <stdio.h>
+
+int main()
+{
+    int x,y,z;
+    
+    printf("give a user input of x and y:");
+    scanf("%d%d",&x,&y);
+    
+    z=x%y;
+    printf("%d",z);
+
+    return 0;
+}
+
+3:
+#include <stdio.h>
+
+int main()
+{
+    int x,y,z;
+    
+    printf("give a user input of x and y:");
+    scanf("%d%d",&x,&y);
+    z=x<y;
+    printf("%d",z);
+
+    return 0;
+}
+
+4:
