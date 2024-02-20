@@ -1,0 +1,138 @@
+1-
+#include <stdio.h>
+
+int main()
+{
+int p,r,t, total;
+printf("Enter the value p");
+scanf("%d",&p);
+printf("Enter the value r");
+scanf("%d",&r);
+printf("Enter the value t");
+scanf(" %d",&t);
+
+total = p*r*t;
+printf("Total Intrest Is");
+printf("%d", total/100);
+
+return 0;
+}
+
+2-
+#include <stdio.h>
+
+int main()
+{
+    char ch;
+    
+    printf("enter the character:");
+    scanf("%c",&ch);
+
+    if (ch == 'a' || ch == 'A' || ch == 'e' || ch == 'E'
+        || ch == 'i' || ch == 'I' || ch == 'o' || ch == 'O'
+        || ch == 'u' || ch == 'U') {
+ 
+        printf(" %c is a vowel\n", ch);
+    }
+    else {
+        printf(" %c is a consonant\n", ch);
+    }
+ 
+    return 0;
+}
+
+
+3-
+#include <stdio.h>
+
+int main()
+{ 
+    int num; 
+    int total=0;
+    for(num=1;num<=100;num++){
+        printf("\n %d",num); 
+        total = total+num;
+    }
+     printf("total value is %d",total);
+
+    return 0;
+}
+
+4-
+#include <stdio.h>
+
+int main()
+{ 
+    int num; 
+    float total=0;
+    for(num=1;num<=50;num++){
+        printf("\n %d",num); 
+        total = total+num;
+    }
+     printf("\n average %f",total/50);
+
+    return 0;
+}
+
+5-
+#include <stdio.h>
+
+int main()
+{
+
+     int x;
+     printf("enter the value of x:");
+     scanf("%d",&x);
+     
+     int y;
+     printf("enter the value of y:");
+     scanf("%d",&y);
+     
+    int z;
+    printf("enter your choice:");
+    scanf("%d",&z);
+    
+    if(z==1)
+    {
+        printf("addition is %d",x+y);
+    }
+    else if(z==2)
+    {
+        printf("subtraction is %d",x-y);
+    }
+    else if(z==3)
+    {
+        printf("multiply is %d",x*y);
+    }
+    else if(z==4)
+    {
+        printf("division is %d",x/y);
+    }
+    else if(z==5)
+    {
+        printf("modulous is %d",x%y);
+    }
+    else
+    {
+        printf("please select between 1 to 5");
+    }
+     
+     
+     
+     return 0;
+}
+
+
+6-
+#include<stdio.h>
+int main()
+{
+    int x;
+    
+    for (x=4; x<=78; x++)
+    {
+        if(x%2!=0)
+        printf("%d\n",x);
+    }
+    return 0;
+}
