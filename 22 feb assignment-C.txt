@@ -208,6 +208,26 @@ int main()
 {
 	int a=10;
 	int b=20;
+    int c;
+	printf("the real value of a is :%d\n",a);
+	printf("the real value of b is :%d\n",b);
+	
+    c=a;
+    a=b;
+    b=c;
+
+    printf("the swap value of a if %d\n",a);
+    printf("the swap value of b if %d\n",b);
+
+    return 0;
+}
+
+(ii:)without third variable:
+#include<stdio.h>
+int main()
+{
+	int a=10;
+	int b=20;
 	printf("the real value of a is :%d\n",a);
 	printf("the real value of b is :%d\n",b);
 	
@@ -215,8 +235,14 @@ int main()
 	b=a-b;
 	a=a-b;
 
+    printf("the swap value of a if %d\n",a);
+    printf("the swap value of b if %d\n",b);
 
+    return 0;
 }
+
+(iii:)Method 3:
+
 
 10-
 
