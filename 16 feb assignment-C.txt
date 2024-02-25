@@ -1,0 +1,104 @@
+1 -
+#include <stdio.h>
+    int main()
+{
+    int marks = 60;
+    if (marks > 90)
+    {
+        printf("top college ");
+    }
+
+    else if (marks > 80 && marks < 90)
+    {
+        printf("good college");
+    }
+    else if (marks >= 60 && marks <= 80)
+    {
+        printf("average college");
+    }
+    else
+    {
+        printf("bad college");
+    }
+
+    return 0;
+}
+
+2 -
+#include <stdio.h>
+    int main()
+{
+
+    char *weekday[50] = {"monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"};
+    int daynumber;
+    printf("enter a number to represent as a weekday : ");
+    scanf("%d", &daynumber);
+
+    if (daynumber >= 0 && daynumber <= 6)
+    {
+        printf("weekday %s\n", weekday[daynumber]);
+    }
+    else
+    {
+        printf("invalid input");
+    }
+    return 0;
+}
+
+3
+#include <stdio.h>
+    int
+    main()
+{
+
+    char *monthname[50] = {"jan", "feb", "march", "april", "may", "june", "july", "august", "sep", "oct", "nov", "dec"};
+    int monthnumber;
+    printf("enter a number to represent a monthname : ");
+    scanf("%d", &monthnumber);
+
+    if (monthnumber >= 0 && monthnumber <= 11)
+    {
+        printf("monthname %s\n", monthname[monthnumber]);
+    }
+    else
+    {
+        printf("invalid input");
+    }
+    return 0;
+}
+
+4 -
+#include <stdio.h>
+    int main()
+{
+    int year;
+    printf("enter a year : ");
+    scanf("%d", &year);
+    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+    {
+        printf("its a leap year");
+    }
+    else
+    {
+        printf("not a leap year");
+    }
+    return 0;
+}
+
+5 -
+#include <stdio.h>
+    int main()
+{
+    int num;
+    printf("enter a number : ");
+    scanf("%d", &num);
+    if (num % 6 == 0)
+    {
+        printf("divisible by 6");
+    }
+    else
+    {
+        printf("not divisible by 6");
+    }
+    return 0;
+}
