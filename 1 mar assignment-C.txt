@@ -1,0 +1,161 @@
+1) 3.456
+   -678
+   E
+   1234
+   -123.56
+   P
+ans-#include <stdio.h>
+
+int main()
+{
+    float a=3.456;
+    printf("%f\n",a);
+    int b=-678;
+    printf("%d\n",b);
+    char c='E';
+    printf("%c\n",c);
+    int d=1234;
+    printf("%d\n",d);
+    float e=-123.56;
+    printf("%f\n",e);
+    char f='P';
+    printf("%c\n",f);
+    return 0;
+}
+
+2) 23+78
+ans- #include <stdio.h>
+
+int main()
+{
+   int a=23;
+   int b=78;
+   int c=a+b;
+   printf("%d",c);
+    return 0;
+}
+
+3) 1+2+3+4+5
+
+ans- #include <stdio.h>
+int main()
+{
+   int a=1;
+   int b=2;
+   int c=3;
+   int d=4;
+   int e=5;
+   int f=a+b+c+d+e;
+   printf("%d",f);
+    return 0;
+}
+
+4) 56-3
+
+ans-#include <stdio.h>
+int main()
+{
+   int a=56;
+   int b=3;
+   int c=a-b;
+   printf("%d",c);
+    return 0;
+}
+
+5) 23*4
+
+ans-#include <stdio.h>
+int main()
+{
+   int a=23;
+   int b=4;
+   int c=a*b;
+   printf("%d",c);
+    return 0;
+}
+
+6) 12/2
+
+ans-#include <stdio.h>
+int main()
+{
+   int a=12;
+   int b=2;
+   int c=a/b;
+   printf("%d",c);
+    return 0;
+}
+
+7) 12+34-56*3
+
+ans-#include <stdio.h>
+int main()
+{
+   int a=12;
+   int b=34;
+   int c=56;
+   int d=3;
+   int result=a+b-c*d;
+   printf("%d",result);
+    return 0;
+}
+
+8) 12*9+(2+2)
+
+ans-#include <stdio.h>
+int main()
+{
+   int a=12;
+   int b=9;
+   int c=2;
+   int d=2;
+   int result=a*b+(c+d);
+   printf("%d",result);
+    return 0;
+}
+
+9) 1.2*56-67+45*23
+
+ans-#include <stdio.h>
+int main()
+{
+   float a=1.2;
+   int b=56;
+   int c=67;
+   int d=45;
+   int e=23;
+   int result=a*b-c+d*e;
+   printf("%d",result);
+    return 0;
+}
+
+10) 1.1+(2.3*67)/2-45*8.9
+
+ans-#include <stdio.h>
+int main()
+{
+   float a=1.1;
+   float b=2.3;
+   int c=67;
+   int d=2;
+   int e=45;
+   float f=8.9;
+   int result=a+(b*c)/d-e*f;
+   printf("%d",result);
+    return 0;
+}
+
+11) 123+7-78+45*2.2
+
+ans-#include <stdio.h>
+int main()
+{
+   int a=123;
+   int b=7;
+   int c=78;
+   int d=45;
+   float e=2.2;
+   int result=a+b-c+d*e;
+   printf("%d",result);
+    return 0;
+}
