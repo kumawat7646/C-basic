@@ -1,0 +1,229 @@
+a)3.456
+-678
+e
+1234
+-123.56
+printf
+
+#include <stdio.h>
+int main()
+{
+    float a;
+    printf("enter the value of a:");
+    scanf("%f",&a);
+
+    int b;
+    printf("enter the value of b:");
+    scanf("%d",&b);
+
+    char c;
+    printf("enter the value of c:");
+    scanf(" %c",&c);
+
+    int d;
+    printf("enter the value of d:");
+    scanf("%d",&d);
+
+    float e;
+    printf("enter the value of e:");
+    scanf("%f",&e);
+
+    char f;
+    printf("enter the value of f:");
+    scanf(" %c",&f);
+
+    return 0;
+}
+
+
+b)23+78
+
+#include <stdio.h>
+int main()
+{
+   int a,b,c;
+   printf("enter the value of a and b ");
+   scanf("%d%d",&a,&b);
+   c=a+b;
+   printf("%d",c);
+    return 0;
+}
+
+
+c)1+2+3+4+5
+
+#include <stdio.h>
+int main()
+{
+   int a,b,c,d,e,result;
+   printf("enter the value  ");
+   scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+   result=a+b+c+d+e;
+   printf("%d",result);
+    return 0;
+}
+
+
+d)56-3
+
+#include <stdio.h>
+int main()
+{
+   int a,b,c;
+   printf("enter the value of a and b ");
+   scanf("%d%d",&a,&b);
+   c=a-b;
+   printf("%d",c);
+    return 0;
+} 
+
+e)23*4
+
+#include <stdio.h>
+int main()
+{
+   int a,b,c;
+   printf("enter the value of a and b ");
+   scanf("%d%d",&a,&b);
+   c=a*b;
+   printf("%d",c);
+    return 0;
+}
+
+
+f)12/2
+
+#include <stdio.h>
+int main()
+{
+   int a,b,c;
+   printf("enter the value of a and b ");
+   scanf("%d%d",&a,&b);
+   c=a/b;
+   printf("%d",c);
+    return 0;
+}
+
+g)12+34-56*3
+
+#include <stdio.h>
+int main()
+{
+   int a,b,c,d,result;
+   printf("enter the value ");
+   scanf("%d%d%d%d",&a,&b,&c,&d);
+   result=a+b-c*d;
+   printf("%d",result);
+    return 0;
+}
+
+h)12*9+(2+2) 
+
+#include <stdio.h>
+int main()
+{
+   int a,b,c,d,result;
+   printf("enter the value ");
+   scanf("%d%d%d%d",&a,&b,&c,&d);
+   result=a*b+(c+d);
+   printf("%d",result);
+    return 0;
+}
+
+
+i)1.2*56-67+45*23 
+
+#include <stdio.h>
+int main()
+{
+   float a;
+    printf("enter the value ");
+    scanf("%f",&a);
+   int b,c,d,e,result;
+   printf("enter the value ");
+   scanf("%d%d%d%d",&b,&c,&d,&e);
+   result=a*b-c+d*e;
+   printf("%d",result);
+    return 0;
+}
+
+
+j)1.1+(2.3*67)/2-45 *8.9
+
+#include <stdio.h>
+int main()
+{
+   float a,b,f;
+    printf("enter the value ");
+    scanf("%f%f%f",&a,&b,&f);
+   int c,d,e,result;
+   printf("enter the value ");
+   scanf("%d%d%d",&c,&d,&e);
+   result=a+(b*c)/d-e*f;
+   printf("%d",result);
+    return 0;
+} 
+
+k)123+7-78+45*2.2
+
+#include <stdio.h>
+int main()
+{
+   int a,b,c,d,result;
+   printf("enter the value ");
+   scanf("%d%d%d%d",&a,&b,&c,&d);
+   float e;
+   printf("enter the value ");
+   scanf("%f",&e);
+   result=a+b-c+d*e;
+   printf("%d",result);
+    return 0;
+}
+-----------------------------------------------------------------
+1)swap number without third vairable :
+a=67
+b=98
+
+a=98
+b=67
+laptop +copy with diagrams 
+
+#include <stdio.h>
+int main()
+{
+   int a=98;
+   int b=67;
+   printf("The real value of a %d\n",a);
+    printf("The real value of b %d\n",b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("The swap value of a %d\n",a);
+    printf("The swap value of b %d\n",b);
+    return 0;
+}
+
+2)swap number with third variable : 
+
+a=67
+b=98
+
+a=98
+b=67
+laptop +copy with diagrams 
+
+#include <stdio.h>
+int main()
+{
+   int a=67;
+   int b=98;
+   int c;
+   printf("The real value of a %d\n",a);
+    printf("The real value of b %d\n",b);
+    c=a;
+    a=b;
+    b=c;
+    printf("The swap value of a %d\n",a);
+    printf("The swap value of b %d\n",b);
+    return 0;
+}
