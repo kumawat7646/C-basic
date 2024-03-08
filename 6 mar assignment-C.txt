@@ -430,108 +430,82 @@ square
 // Online C compiler to run C program online
 #include <stdio.h>
 
-int main() {
-    
-    char num,area,volume;
-    
-    printf("choose any one between area or volume: ");
-    scanf("%c\n",&num);
-    
-    if(num==area)
-    {
-        char a;
-        int triangle,square,rectangle;
-        printf("choose any one between triangle,square,rectangle: ");
-        scanf("%c\n",&a);
-        
-        if(a==triangle)
-        {
-            int h,b,area;
-            printf("give height of triangle:");
-            scanf("%d\n",&h);
-            printf("give base of triangle:");
-            scanf("%d\n",&b);
-            
-            area=(h*b)/2;
-            printf("%d is the area of triangle",area);
-        }
-        
-        else if(a==square)
-        {
-            int s,area;
-            printf("give side of square:");
-            scanf("%d\n",&s);
-            
-            area=s*s;
-            printf("%d is the area of square",area);
-        }
-        
-        else
-        {
-            int l,w,area;
-            printf("give length of rectangle:");
-            scanf("%d\n",&l);
-            printf("give width of triangle:");
-            scanf("%d\n",&w);
-            
-            area=l*w;
-            printf("%d is the area of rectangle",area);
-        }
-    }
-    
-    else if(num==volume)
-    {
-        char a;
-        int triangle,square,rectangle;
-        printf("choose any one between triangle,square,rectangle: ");
-        scanf("%c\n",&a);
-        
-        if(a==triangle)
-        {
-            int h,b,l,volume;
-            printf("give height of triangle:");
-            scanf("%d\n",&h);
-            printf("give base of triangle:");
-            scanf("%d\n",&b);
-            printf("give length of triangle:");
-            scanf("%d\n",&l);
-            
-            volume=(h*b*l)/2;
-            printf("%d is the volume of triangle",volume);
-        }
-        
-        else if(a==square)
-        {
-            int s,area;
-            printf("give side of square:");
-            scanf("%d\n",&s);
-            
-            volume=s*s*s;
-            printf("%d is the volume of square",volume);
-        }
-        
-        else 
-        {
-            int l,w,h,area;
-            printf("give length of rectangle:");
-            scanf("%d\n",&l);
-            printf("give width of triangle:");
-            scanf("%d\n",&w);
-            printf("give height of triangle:");
-            scanf("%d\n",&h);
-            
-            volume=l*w*h;
-            printf("%d is the volume of rectangle",volume);
-        }
-    }
-    
-    else
-        {
-            printf("mismatch");
-        }
+int
+main ()
+{
+  char ch;
+  printf ("enter a character (a & v):");
+  scanf ("%c", &ch);
 
-    return 0;
+  if (ch == 'a')
+	{
+
+	  char ch;
+	  printf ("enter a character(t,s,r) :");
+	  scanf (" %c", &ch);
+
+	  if (ch == 't')
+		{
+		  float base, height;
+		  printf ("enter a base and height :");
+		  scanf ("%f %f", &base, &height);
+
+		  float aria = (base * height) / 2;
+		  printf ("aria of triangle:%f", aria);
+		}
+	  else if (ch == 's')
+		{
+		  float side;
+		  printf ("enter a side :");
+		  scanf (" %f ", &side);
+		  float aria = side * side;
+		  printf ("aria of squre:%f", aria);
+		}
+	  else if (ch == 'r')
+		{
+		  float w, l;
+		  printf ("enter a w,l :");
+		  scanf (" %f %f", &w, &l);
+		  float aria = w * l;
+		  printf ("aria of rectangle:%f", aria);
+		}
+	  else
+		{
+		  printf ("miss match character");
+		}
+	}
+  else if (ch == 'v')
+	{
+	  printf ("enter a character(t,s,r) :");
+	  scanf (" %c", &ch);
+	  if (ch == 't')
+		{
+		  float base, height;
+		  printf ("enter a base and height :");
+		  scanf ("%f %f", &base, &height);
+		  float volume = base * height;
+		  printf ("volume of triangle:%f", volume);
+		}
+	  else if (ch == 's')
+		{
+		  float side;
+		  printf ("enter a side :");
+		  scanf ("%f", &side);
+		  float volume = side * side * side;
+		  printf ("volume of triangle:%f", volume);
+		}
+	  else if (ch == 'r')
+		{
+		  float l, w, h;
+		  printf ("enter a side l,w,h :");
+		  scanf ("%f %f %f", &l, &w, &h);
+		  float volume = l * w * h;
+		  printf ("volume of triangle:%f", volume);
+		}
+	}
+  return 0;
 }
+
 -----------------------------------------------------
 10)C program to enter student marks and find percentage and grade
 A college has the following rules for the grading system:
@@ -612,6 +586,51 @@ Input the marks of Physics, Chemistry and Computer Application : 70 80 90
 total: 
 precentage : % 
 division:
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int
+main ()
+{
+  int rl;
+  printf ("enter roll number :");
+  scanf ("%d", &rl);
+
+  int phy, che, math, comp;
+  printf ("enter the marks<=100(phy.che.comp.) :");
+  scanf ("%d %d %d ", &phy, &che, &comp);
+
+  int total = phy + che + comp;
+  float pr = (total * 100) / 300;
+
+  printf ("\n roll number :%d", rl);
+  printf ("\nstudent name : rajendra singh");
+  printf ("\nfather's name : mahendra singh");
+  printf ("\nmother's name : jyoti kanvar");
+  printf ("\naddress : shanti nagar ,jaipur 451028");
+  printf ("\ncontact number :9785726787");
+  printf ("\ntotal marks :%d", total);
+  printf ("\nprecantage is :%f", pr);
+  if (pr <= 45)
+	{
+	  printf ("\n division : third division");
+	}
+  else if (pr > 45 && pr < 60)
+	{
+	  printf ("\ndivision :second division");
+	}
+  else if (pr >= 60 && pr <= 100)
+	{
+	  printf ("\ndivision :frist division");
+	}
+  else
+	{
+	  printf ("\nenter the valid marks");
+	}
+  return 0;
+}
+
 -----------------------------------------------------
 12) Time of Day Greeting
 Create a program that asks for the time of day (morning, afternoon, evening) and then greets the user accordingly. For example, "Good morning!" if the time is morning.
@@ -669,55 +688,49 @@ total pay amount :
 // Online C compiler to run C program online
 #include <stdio.h>
 
-int main() {
-    
-    int unit,price,name,discount,total;
-    printf("enter your name:");
-    scanf("%d",&name);
-    printf("enter the unit:");
-    scanf("%d",&unit);
-    
-    price=unit*4;
-    printf("the price of unit is %d",price);
-    
-    if(unit<=10)
-    {
-        discount=price-10%
-        printf("%d",discount);
-    }
-    
-    else if(unit<=50)
-    {
-        int discount;
-        discount=price-50%
-        printf("%d",discount);
-    }
-    
-    else if(unit<=40)
-    {
-        int discount;
-        discount=price-30%
-        printf("%d",discount);
-    }
-    
-    else if(unit<=20)
-    {
-        int discount;
-        discount=price-15%
-        printf("%d",discount);
-    }
-    
-    else
-    {
-        printf("mismatch");
-    }
-    
-    total=price-discount;
-    printf("the total pay amount %d",total);
-    
+int
+main ()
+{
+  float unit;
+  printf ("name : Rahul\n");
+  printf ("enter the unit :");
+  scanf ("%f", &unit);
+  
+  float amt = unit * 10;
+  printf ("\nunit is   :%f", unit);
+  printf ("\namount is   :%f", amt);
 
-    return 0;
+  if (unit >= 1 && unit <= 10)
+	{
+	  float damt = (amt * 10) / 100;
+	  printf ("\n discount is 10 prcnt : %f", damt);
+	  printf ("\ntotal pay amount is :%f", amt - damt);
+	}
+	
+  else if (unit >= 11 && unit <= 20)
+	{
+	  float damt = (amt * 15) / 100;
+	  printf ("\n discount is 15 prcnt : %f", damt);
+	  printf ("\ntotal pay amount is :%f", amt - damt);
+	}
+	
+  else if (unit >= 21 && unit <= 40)
+	{
+	  float damt = (amt * 30) / 100;
+	  printf ("\n discount is 30 prcnt : %f", damt);
+	  printf ("\ntotal pay amount is :%f", amt - damt);
+	}
+	
+  else if (unit >= 50)
+	{
+	  float damt = (amt * 50) / 100;
+	  printf ("\n discount is 50 prcnt : %f", damt);
+	  printf ("\ntotal pay amount is :%f", amt - damt);
+	}
+
+  return 0;
 }
+
 -----------------------------------------------------
 14)
 e :check number even or not 
