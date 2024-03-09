@@ -1,0 +1,586 @@
+1)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    int num=1;
+    while(num<=10)
+    {
+        if(num%2==0)
+        {
+            printf("%d is a even no.",num);
+        }
+        num++;
+        printf("\n");
+    }
+    
+    return 0;
+}
+-----------------------------------------------------------------------
+2)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    int num=1;
+    while(num<=100)
+    {
+        if(num%2==0)
+        {
+            printf("%d is a even no.",num);
+        }
+        num++;
+        printf("\n");
+    }
+    
+    return 0;
+}
+----------------------------------------------------------------------
+3)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    int num=50;
+    while(num<=100)
+    {
+        if(num%2==0)
+        {
+            printf("%d is a even no.",num);
+        }
+        num++;
+        printf("\n");
+    }
+    
+    return 0;
+}
+-----------------------------------------------------------------------
+4)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    int num=10;
+    while(num>=1)
+    {
+        if(num%2==0)
+        {
+            printf("%d is a even no.",num);
+        }
+        num--;
+        printf("\n");
+    }
+    
+    return 0;
+}
+-----------------------------------------------------------------------
+5)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    int num=100;
+    while(num>=1)
+    {
+        if(num%2==0)
+        {
+            printf("%d is a even no.",num);
+        }
+        num--;
+        printf("\n");
+    }
+    
+    return 0;
+}
+-----------------------------------------------------------------------
+6)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    int num=53;
+    while(num<=89)
+    {
+        if(num%2==0)
+        {
+            printf("%d is a even no.",num);
+        }
+        num++;
+        printf("\n");
+    }
+    
+    return 0;
+}
+-----------------------------------------------------------------------
+7)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    int num=78;
+    while(num>=65)
+    {
+        if(num%2==0)
+        {
+            printf("%d is a even no.",num);
+        }
+        num--;
+        printf("\n");
+    }
+    
+    return 0;
+}
+-------------------------------------------------------------------------
+8)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    int starting,ending;
+    printf("enter the starting value:");
+    scanf("%d",&starting);
+    printf("enter the ending value:");
+    scanf("%d",&ending);
+    
+    while(starting<=ending)
+    {
+        if(starting%2==0)
+        {
+            printf("%d is a even no.",starting);
+        }
+        starting++;
+        printf("\n");
+    }
+    
+    return 0;
+}
+-----------------------------------------------------------------------
+9)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    int num=1;
+    while(num<=100)
+    {
+        if(num%2!=0)
+        {
+            printf("%d is a odd no.",num);
+        }
+        num++;
+        printf("\n");
+    }
+    
+    return 0;
+}
+------------------------------------------------------------------------
+10)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    int num=67;
+    while(num<=89)
+    {
+        if(num%2!=0)
+        {
+            printf("%d is a odd no.",num);
+        }
+        num++;
+        printf("\n");
+    }
+    
+    return 0;
+}
+---------------------------------------------------------------------------
+11)count digit:
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    int num=34534645,count=0;
+    while(num>0)
+    {
+        count++;
+        num=num/10;
+    }
+    printf("%d",count);
+    return 0;
+}
+-------------------------------------------------------------------------
+12)reverse of no.
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    int rem,num=56234,sum=0;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum*10+rem;
+	num=num/10;
+    }
+    printf("%d",sum);
+    return 0;
+}
+--------------------------------------------------------------------------
+13)pallindrome
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    int rem,num=1231,sum=0,temp=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum*10+rem;
+	num=num/10;
+    }
+    printf("%d",sum);
+    
+    if(sum==temp)
+    {
+        printf("it is a pallindrome");
+    }
+    
+    else
+    {
+        printf("it is not  a pallindrome");
+    }
+    return 0;
+}
+---------------------------------------------------------------------------
+14)Armstrong
+(i)153
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    int rem,num=153,sum=0,temp=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum+rem*+rem*+rem;
+	num=num/10;
+    }
+    printf("%d",sum);
+    
+    if(sum==temp)
+    {
+        printf("it is a armstrong");
+    }
+    
+    else
+    {
+        printf("it is not a armstrong");
+    }
+    return 0;
+}
+
+(ii)156
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    int rem,num=156,sum=0,temp=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum+rem*+rem*+rem;
+	num=num/10;
+    }
+    printf("%d",sum);
+    
+    if(sum==temp)
+    {
+        printf("it is a armstrong");
+    }
+    
+    else
+    {
+        printf("it is not a armstrong");
+    }
+    return 0;
+}
+---------------------------------------------------------------------------
+15)
+user input :
+
+e : 23---89 even number
+
+o :67---->23 odd number 
+
+r :reverse number print 
+
+p :pallindrome 
+
+a :armstrong 
+
+s :swap 
+	w :with 
+	o:without 
+
+g :for gender 
+	m :male 
+	f :female 
+	o :others 
+
+m :month check 
+
+c :count of digit
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    char num;
+    printf("choose any one between e,o,r,p,a,s,g,m,c:");
+    scanf("%c",&num);
+    
+    if(num=='e')
+    {
+        int num=23;
+        while(num<=89)
+        {
+            if(num%2==0)
+            {
+                printf("%d is a even no.",num);
+            }
+            num++;
+            printf("\n");
+        }
+    }
+    
+    else if(num=='o')
+    {
+        int num=63;
+        while(num>=23)
+        {
+            if(num%2!=0)
+            {
+                printf("%d is a odd no.",num);
+            }
+            num--;
+            printf("\n");
+        }
+    }
+    
+    else if(num=='r')
+    {
+        int rem,num=56234,sum=0;
+        while(num>0)
+        {
+            rem=num%10;
+            sum=sum*10+rem;
+    	    num=num/10;
+        }
+        printf("%d",sum);
+    }
+    
+    else if(num=='p')
+    {
+        int rem,num=1231,sum=0,temp=num;
+        while(num>0)
+        {
+            rem=num%10;
+            sum=sum*10+rem;
+    	    num=num/10;
+        }
+        printf("%d",sum);
+        
+        if(sum==temp)
+        {
+            printf("it is a pallindrome");
+        }
+        
+        else
+        {
+            printf("it is not  a pallindrome");
+        }
+    }
+    
+    else if(num=='a')
+    {
+         int rem,num=153,sum=0,temp=num;
+        while(num>0)
+        {
+            rem=num%10;
+            sum=sum+rem*+rem*+rem;
+    	    num=num/10;
+        }
+        printf("%d",sum);
+        
+        if(sum==temp)
+        {
+            printf("it is a armstrong");
+        }
+        
+        else
+        {
+            printf("it is not a armstrong");
+        }
+    }
+    
+    else if(num=='s')
+    {
+        char sum;
+        printf("choose any one w,o:");
+        scanf(" %c",&sum);
+        
+        if(sum=='w')
+        {
+            int a=67;
+            int b=98;
+            int c;
+            printf("The real value of a %d\n",a);
+            printf("The real value of b %d\n",b);
+            c=a;
+            a=b;
+            b=c;
+            printf("The swap value of a %d\n",a);
+            printf("The swap value of b %d\n",b);
+        }
+        
+        else if(sum=='o')
+        {
+               int a=98;
+               int b=67;
+               printf("The real value of a %d\n",a);
+                printf("The real value of b %d\n",b);
+                a=a+b;
+                b=a-b;
+                a=a-b;
+                printf("The swap value of a %d\n",a);
+                printf("The swap value of b %d\n",b);
+        }
+        
+        else
+        {
+            printf("mismatch");
+        }
+    }
+    
+    else if(num=='g')
+    {
+        char sum;
+        printf("choose any one between m,f and o:");
+        scanf(" %c",&sum);
+        
+        if(sum=='m')
+        {
+            printf("male");
+        }
+        else if(sum=='f')
+        {
+            printf("female");
+        }
+        else if(sum=='o')
+        {
+            printf("other");
+        }
+        else
+        {
+            printf("mismatch");
+        }
+    }
+    
+    else if(num=='m')
+    {
+        int num;
+    
+        printf("Enter the month no.:");
+        scanf("%d",&num);
+        
+        if(num==1)
+        {
+            printf("January");
+        }
+        else if(num==2)
+        {
+            printf("February");
+        }
+        else if(num==3)
+        {
+            printf("March");
+        }
+        else if(num==4)
+        {
+            printf("April");
+        }
+        else if(num==5)
+        {
+            printf("May");
+        }
+        else if(num==6)
+        {
+            printf("June");
+        }
+        else if(num==7)
+        {
+            printf("July");
+        }
+        else if(num==8)
+        {
+            printf("August");
+        }
+        else if(num==9)
+        {
+            printf("September");
+        }
+        else if(num==10)
+        {
+            printf("October");
+        }
+        else if(num==11)
+        {
+            printf("November");
+        }
+        else if(num==12)
+        {
+            printf("December");
+        }
+        else 
+        {
+            printf("Please enter valid month no.");
+        }
+    }
+    
+    else if(num=='c')
+    {
+            int num=34534645,count=0;
+            while(num>0)
+            {
+                count++;
+                num=num/10;
+            }
+            printf("%d",count);
+    }
+    
+    else
+    {
+        printf("mismatch");
+    }
+    
+   return 0;
+}
