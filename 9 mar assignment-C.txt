@@ -1,0 +1,478 @@
+1)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int i;
+    for(i=1;i<=10;i++)
+    {
+        printf("%d\n",i);
+    }
+
+    return 0;
+}
+--------------------------------------------------------------------------
+2)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int i;
+    for(i=1;i<=100;i++)
+    {
+        printf("%d\n",i);
+    }
+
+    return 0;
+}
+---------------------------------------------------------------------------
+3)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int i;
+    for(i=100;i>=10;i--)
+    {
+        printf("%d\n",i);
+    }
+
+    return 0;
+}
+---------------------------------------------------------------------------
+4)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int i;
+    for(i=34;i<=89;i++)
+    {
+        printf("%d\n",i);
+    }
+
+    return 0;
+}
+---------------------------------------------------------------------------
+5)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int i;
+    for(i=89;i>=23;i--)
+    {
+        printf("%d\n",i);
+    }
+
+    return 0;
+}
+----------------------------------------------------------------------------
+6)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int i;
+    for(i=1;i<=10;i++)
+    {
+        if(i%2==0)
+        {
+        printf("%d\n",i);
+        }
+    }
+
+    return 0;
+}
+----------------------------------------------------------------------------
+7)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int i;
+    for(i=10;i>=1;i--)
+    {
+        if(i%2==0)
+        {
+        printf("%d\n",i);
+        }
+    }
+
+    return 0;
+}
+---------------------------------------------------------------------------
+8)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int i;
+    for(i=12;i<=78;i++)
+    {
+        if(i%2!=0)
+        {
+        printf("%d\n",i);
+        }
+    }
+
+    return 0;
+}
+----------------------------------------------------------------------------
+9)
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int i,sum=0;
+    for(i=1;i<=100;i++)
+    {
+        sum=sum+i;
+    }
+    printf("%d",sum);
+
+    return 0;
+}
+---------------------------------------------------------------------------
+10)
+n : 
+	f :starting point ending point (8--19) through for loop 
+	b:ending point starting point (80--19) through for loop 
+
+e :
+	f :starting point ending point (8--19) through for loop even number
+	b :ending point starting point (80--19) through for loop even number
+
+o :
+	f :starting point ending point (8--19) through for loop odd number
+	b :ending point starting point (80--19) through for loop odd number
+
+s:
+	f :starting point ending point (8--19) through for loop sum of number
+	b :ending point starting point (80--19) through for loop sum of number
+
+i :
+	fibonacci
+
+a :
+	factorial 
+
+r :
+	reverse number
+
+p :
+	pallindrome 
+
+m :
+	armstrong 
+
+t :
+	user input table print 
+
+g : gender 
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() 
+{
+    char num;
+    printf("Enter any character:");
+    scanf("%c",&num);
+    
+    if(num=='n')
+    {
+        char a;
+        printf("choose any one between f and b:");
+        scanf(" %c",&a);
+        
+        if(a=='f')
+        {
+            int i,starting,ending;
+            printf("enter the starting point:");
+            scanf("%d",&starting);
+            printf("enter the ending point:");
+            scanf("%d",&ending);
+            
+            for(i=starting;i<=ending;i++)
+            {
+                printf("%d",i);
+            }
+        }
+        
+        else if(a=='b')
+        {
+            int i,starting,ending;
+            printf("enter the starting point:");
+            scanf("%d",&starting);
+            printf("enter the ending point:");
+            scanf("%d",&ending);
+            
+            for(i=starting;i>=ending;i--)
+            {
+                printf("%d",i);
+            }
+        }
+        
+        else
+        {
+            printf("mismatch");
+        }
+    }
+    
+    else if(num=='e')
+    {
+        char a;
+        printf("choose any one between f and b:");
+        scanf(" %c",&a);
+        
+        if(a=='f')
+        {
+            int i,starting,ending;
+            printf("enter the starting point:");
+            scanf("%d",&starting);
+            printf("enter the ending point:");
+            scanf("%d",&ending);
+            
+            for(i=starting;i<=ending;i++)
+            {
+                if(i%2==0)
+                {
+                printf("%d",i);
+                }
+            }
+        }
+        
+        else if(a=='b')
+        {
+            int i,starting,ending;
+            printf("enter the starting point:");
+            scanf("%d",&starting);
+            printf("enter the ending point:");
+            scanf("%d",&ending);
+            
+            for(i=starting;i>=ending;i--)
+            {
+                if(i%2==0)
+                {
+                printf("%d",i);
+                }
+            }
+        }
+        
+        else
+        {
+            printf("mismatch");
+        }
+    }
+    
+    else if(num=='o')
+    {
+        char a;
+        printf("choose any one between f and b:");
+        scanf(" %c",&a);
+        
+        if(a=='f')
+        {
+            int i,starting,ending;
+            printf("enter the starting point:");
+            scanf("%d",&starting);
+            printf("enter the ending point:");
+            scanf("%d",&ending);
+            
+            for(i=starting;i<=ending;i++)
+            {
+                if(i%2!=0)
+                {
+                printf("%d",i);
+                }
+            }
+        }
+        
+        else if(a=='b')
+        {
+            int i,starting,ending;
+            printf("enter the starting point:");
+            scanf("%d",&starting);
+            printf("enter the ending point:");
+            scanf("%d",&ending);
+            
+            for(i=starting;i>=ending;i--)
+            {
+                if(i%2!=0)
+                {
+                printf("%d",i);
+                }
+            }
+        }
+        
+        else
+        {
+            printf("mismatch");
+        }
+    }
+    
+    else if(num=='s')
+    {
+        char a;
+        printf("choose any one between f and b:");
+        scanf(" %c",&a);
+        
+        if(a=='f')
+        {
+            int i,starting,ending,sum=0;
+            printf("enter the starting point:");
+            scanf("%d",&starting);
+            printf("enter the ending point:");
+            scanf("%d",&ending);
+            
+            for(i=starting;i<=ending;i++)
+            {
+                sum=sum+i;
+            }
+            printf("%d",sum);
+        }
+        
+        else if(a=='b')
+        {
+            int i,starting,ending,sum=0;
+            printf("enter the starting point:");
+            scanf("%d",&starting);
+            printf("enter the ending point:");
+            scanf("%d",&ending);
+            
+            for(i=starting;i>=ending;i--)
+            {
+                sum=sum+i;
+            }
+            printf("%d",sum);
+        }
+        
+        else
+        {
+            printf("mismatch");
+        }
+    }
+    
+    else if(num=='i')
+    {
+        int n1=0,n2=1,n3,i;
+        printf("%d %d",n1,n2);
+        
+        for(i=1;i<=5;i++)
+        {
+            n3=n1+n2;
+            printf("%d",n3);
+            n1=n2;
+            n2=n3;
+        }
+    }
+    
+    else if(num=='a')
+    {
+        int i,num=5,fact=1;
+        for(i=1;i<=num;i++)
+        {
+            fact*=i;
+        }
+        printf("%d",fact);
+    }
+    
+    else if(num=='r')
+    {
+        int num=100,rem,sum=0;
+        while(num>=0)
+        {
+            rem=num%10;
+            sum=sum*10+rem;
+            num=num/10;
+        }
+        printf("%d",sum);
+    }
+    
+    else if(num=='p')
+    {
+        int num=100,rem,sum=0,temp=num;
+        while(num>=0)
+        {
+            rem=num%10;
+            sum=sum*10+rem;
+            num=num/10;
+        }
+        printf("%d",sum);
+        
+        if(temp==sum)
+        {
+            printf("it is pallindrome");
+        }
+        
+        else
+        {
+            printf("it is not pallindrome");
+        }
+    }
+    
+    else if(num=='m')
+    {
+        int num=100,rem,sum=0,temp=num;
+        while(num>=0)
+        {
+            rem=num%10;
+            sum=sum+rem*rem*rem;
+            num=num/10;
+        }
+        printf("%d",sum);
+        
+        if(temp==sum)
+        {
+            printf("it is armstrong");
+        }
+        
+        else
+        {
+            printf("it is not armstrong");
+        }
+    }
+    
+    else if(num=='t')
+    {
+            int i,table;
+            printf("enter the starting point:");
+            scanf("%d",&table);
+            
+            for(i=1;i<=10;i++)
+            {
+                printf("%d\n",i*table);
+            }
+    }
+    
+    else if(num=='g')
+    {
+        char gender;
+        printf("enter the gender m,f,o:");
+        scanf(" %c",&gender);
+        
+        if(gender=='m')
+        {
+            printf("male");
+        }
+        else if(gender=='f')
+        {
+            printf("female");
+        }
+        else if(gender=='o')
+        {
+            printf("other");
+        }
+        else
+        {
+            printf("mismatch");
+        }
+    }
+    
+    else
+    {
+        printf("mismatch");
+    }
+    return 0;
+}
