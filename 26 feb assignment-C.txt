@@ -1,0 +1,138 @@
+Q1)
+#include<stdio.h>
+
+int square (int num){
+   printf("this is area of squre %d",num*num);
+
+   }int triangle (int a, int b){
+       printf("this is area of traingle %d",a*b/2);
+
+   }
+   int rectangle(int x,int y){
+       printf("this is area pof rectangle %d",x*y);
+   }
+
+
+void main(){
+
+ square (5);
+ triangle(5,10);
+ rectangle(5,4);
+
+}
+
+
+Q2)call by values and call y refernce
+ call by values =>While calling a function, we pass the values of variables to it. Such functions are known as “Call By Values”.
+ call by refrencec=> While calling a function, instead of passing the values of variables, we pass the address of variables(location of variables) to the function known as “Call By References.
+
+5)#include<stdio.h>
+int main(){
+    char i,j;
+    for(i=1;i<=4;i++){
+        for(j=0;j<i;j++){
+        printf("%c",'Z'-j);
+    }
+    printf("\n");
+}
+    return 0;
+}
+
+3)
+#include <stdio.h>
+int main(){
+
+  int x=153;
+  int remainder1=0,remainder2,remainder3;
+   int total;
+remainder1=x%10;
+remainder1=remainder1*remainder1*remainder1;
+
+x=x/10;
+printf("new x is %d\n",x);
+
+remainder2=x%10;
+remainder2=remainder2*remainder2*remainder2;
+
+x=x/10;
+printf("new x %d\n",x);
+
+remainder3=x%14;
+remainder3=remainder3*remainder3*remainder3;
+
+total=remainder1+remainder2+remainder3;
+printf("%d",total);
+
+if(x=total){
+    printf("armstrong no.");
+}
+else{
+    printf("not armstrong");
+}
+return 0;
+}
+
+4)
+#include <stdio.h>
+
+int main() {
+    int i,j; 
+
+    for (int i = 0; i < 5; i++) {
+
+        for (int j = 0; j <= i; j++) {
+            if (j == 0 || i == 5 - 1 || j == i)
+                printf("*"); 
+            else
+                printf(" "); 
+        }
+        printf("\n"); 
+    }
+
+    return 0;
+}
+
+
+5)
+#include<stdio.h>
+int main(){
+    char i,j;
+    for(i=1;i<=4;i++){
+        for(j=0;j<i;j++){
+        printf("%c",'Z'-j);
+    }
+    printf("\n");
+}
+    return 0;
+}
+
+6)
+#include <stdio.h>
+
+int main() {
+    int num;
+    int Prime = 1;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+
+    if (num < 2) {
+        Prime = 0; 
+    } 
+    else {
+
+        for (int i = 2; i <= num / 2; i++) {
+            if (num % i == 0) {
+                Prime = 0; 
+                break; 
+            }
+        }
+    }
+
+    if (Prime)
+        printf("%d is a prime number.\n", num);
+    else
+        printf("%d is not a prime number.\n", num);
+
+    return 0;
+}
